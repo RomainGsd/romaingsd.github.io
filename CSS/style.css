@@ -1,0 +1,49 @@
+.orange
+{
+  color: #ff8533;
+}
+
+.white
+{
+  color: #ffffff;
+}
+
+.ImgFloat
+{
+  float: left;
+}
+
+mark
+{
+  background-color: black;
+  border: 3px grey inset;
+  border-radius: 10px;
+  box-shadow: 6px 6px 6px black;
+}
+
+body
+{
+    /*background-color: rgb(244, 152, 65);*/
+}
+
+em
+{
+  color: red;
+}
+
+h1, h2
+{
+  text-align: center;
+}
+
+p
+{
+  font-size: 1em;
+  font-family: Georgia, Verdana, serif;
+  text-align: center;
+}
+
+ul
+{
+    text-align: center;
+}
