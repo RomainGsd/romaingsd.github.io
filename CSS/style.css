@@ -26,11 +26,6 @@ body
     /*background-color: rgb(244, 152, 65);*/
 }
 
-em
-{
-  color: red;
-}
-
 h1, h2
 {
   text-align: center;
@@ -41,6 +36,25 @@ p
   font-size: 1em;
   font-family: Georgia, Verdana, serif;
   text-align: center;
+}
+
+a
+{
+  text-decoration: undeline;
+  color: black;
+  font-style: italic;
+}
+
+a:hover
+{
+  text-decoration: underline;
+  color: grey;
+  font-weight: bold;
+}
+
+em
+{
+  color: red;
 }
 
 ul
