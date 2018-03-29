@@ -53,6 +53,8 @@
 body
 {
   background-image: url('Imgs/bckgd.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 section
@@ -125,5 +127,5 @@ ul
 
 em
 {
-  color: red;
+  color: purple;
 }
