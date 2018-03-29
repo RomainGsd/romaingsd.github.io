@@ -1,0 +1,104 @@
+.orange
+{
+  color: #ff8533;
+}
+
+.white
+{
+  color: #ffffff;
+}
+
+
+mark
+{
+  background-color: black;
+  border: 3px grey inset;
+  border-radius: 10px;
+  box-shadow: 6px 6px 6px black;
+}
+
+.header_host
+{
+  display: flex;
+  justify-content: center;
+}
+
+.header_list
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+.body-host
+{
+  display: flex;
+  background-color: rgb(244, 152, 65);
+  text-align: center;
+}
+
+.body-describe
+{
+  display: flex;
+  background-color: rgb(255, 152, 65);
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.body-list
+{
+  display: flex;
+  background-color: rgb(244, 152, 65);
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+section
+{
+  margin: auto;
+}
+
+header
+{
+  background-color: grey;
+  border: 3px grey solid;
+}
+nav
+{
+  background-color: #fc7114;
+  width: 10%;
+  text-align: left;
+}
+
+footer
+{
+  text-align: left;
+  background-color: grey;
+  border: 3px grey solid;
+}
+
+p
+{
+  font-size: 1em;
+  font-family: Georgia, Verdana, serif;
+}
+
+a
+{
+  font-size: 1em;
+  text-decoration: undeline;
+  color: black;
+  font-style: italic;
+}
+
+a:hover
+{
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+em
+{
+  color: red;
+}
