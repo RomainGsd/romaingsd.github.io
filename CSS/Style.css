@@ -8,15 +8,6 @@
   color: #ffffff;
 }
 
-
-mark
-{
-  background-color: black;
-  border: 3px grey inset;
-  border-radius: 10px;
-  box-shadow: 6px 6px 6px black;
-}
-
 .header_host
 {
   display: flex;
@@ -32,14 +23,14 @@ mark
 .body-host
 {
   display: flex;
-  background-color: rgb(244, 152, 65);
+  background-color: rgb(255, 152, 65, 0.7);
   text-align: center;
 }
 
 .body-describe
 {
   display: flex;
-  background-color: rgb(255, 152, 65);
+  background-color: rgb(255, 152, 65, 0.7);
   flex-direction: column;
   justify-content: center;
   text-align: center;
@@ -48,10 +39,20 @@ mark
 .body-list
 {
   display: flex;
-  background-color: rgb(244, 152, 65);
+  background-color: rgb(255, 152, 65, 0.7);
   flex-direction: column;
   text-align: center;
   justify-content: center;
+}
+
+.content
+{
+  border: 1px grey solid;
+}
+
+body
+{
+  background-image: url('Imgs/bckgd.jpg');
 }
 
 section
@@ -61,27 +62,46 @@ section
 
 header
 {
-  background-color: grey;
-  border: 3px grey solid;
+  background-color: rgba(196, 196, 196, 0.5);
+  border: 0px grey solid;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
+
 nav
 {
-  background-color: #fc7114;
   width: 10%;
+  background-color: rgba(252, 113, 20, 0.5);
   text-align: left;
 }
 
 footer
 {
+  background-color: rgba(196, 196, 196, 0.5);
   text-align: left;
-  background-color: grey;
   border: 3px grey solid;
+  border-color: rgba(196,196,196, 0.5);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+mark
+{
+  background-color: black;
+  border: 3px grey inset;
+  border-radius: 10px;
+  box-shadow: 6px 6px 6px black;
 }
 
 p
 {
   font-size: 1em;
   font-family: Georgia, Verdana, serif;
+}
+
+h2
+{
+  text-decoration: underline;
 }
 
 a
@@ -96,6 +116,11 @@ a:hover
 {
   text-decoration: underline;
   font-weight: bold;
+}
+
+ul
+{
+  list-style: none;
 }
 
 em
