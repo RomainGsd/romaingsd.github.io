@@ -8,9 +8,9 @@
   color: #ffffff;
 }
 
-.ImgFloat
+.centered
 {
-  float: left;
+  text-align: center;
 }
 
 mark
@@ -26,20 +26,21 @@ body
     /*background-color: rgb(244, 152, 65);*/
 }
 
-h1, h2
+nav
 {
-  text-align: center;
+  width: 20%;
+  margin-right: 0;
 }
 
 p
 {
   font-size: 1em;
   font-family: Georgia, Verdana, serif;
-  text-align: center;
 }
 
 a
 {
+  font-size: 1em;
   text-decoration: undeline;
   color: black;
   font-style: italic;
@@ -55,9 +56,4 @@ a:hover
 em
 {
   color: red;
-}
-
-ul
-{
-    text-align: center;
 }
