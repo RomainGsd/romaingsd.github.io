@@ -1,3 +1,24 @@
+.Parcours
+{
+  display: flex;
+  background-color: rgba(163, 163, 163, 0.5);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+  border-radius: 10px;
+}
+
+.Parcours h2
+{
+  text-decoration: underline;
+}
+
+.profile_pic
+{
+  float: right;
+}
+
 header
 {
   display: flex;
@@ -8,10 +29,10 @@ header
 
 body
 {
-  /*background-image: url('Imgs/bckgd.jpg');
+  background-image: url('Imgs/bckgd.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background: #1b1f22;*/
+  /*background: #1b1f22;*/
 }
 
 nav ul
