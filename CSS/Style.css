@@ -1,4 +1,4 @@
-.Front
+.Homepage
 {
     display: flex;
     flex-direction: column;
@@ -10,14 +10,14 @@
     padding: 10px;
 }
 
-.Front ul, a
+.Homepage ul, a
 {
   font-size: 130%;
   text-decoration: none;
   font-style: normal;
 }
 
-.Front a:hover
+.Homepage a:hover
 {
   background-color: rgba(163, 163, 163, 0.5);
 }
@@ -29,7 +29,7 @@
   justify-content: center;
 }
 
-.Parcours
+.CV
 {
   display: flex;
   background-color: rgba(163, 163, 163, 0.5);
@@ -40,7 +40,7 @@
   border-radius: 10px;
 }
 
-.Parcours h2
+.CV h2
 {
   text-decoration: underline;
 }
@@ -72,7 +72,6 @@ html
 
 body
 {
-  height: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background: linear-gradient(#3f87a6, #9198e5);
