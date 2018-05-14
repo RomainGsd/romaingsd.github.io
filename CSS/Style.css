@@ -45,12 +45,6 @@
   float: right;
 }
 
-.center_pic {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 html {
   height: 100%;
 }
@@ -106,9 +100,4 @@ a {
 
 a:hover {
   text-decoration: none;
-}
-
-footer {
-  padding-top: 5%;
-  font-style: italic;
 }

@@ -1,0 +1,20 @@
+.center_pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background: url('Imgs/bkg2.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+p {
+  text-align: center;
+  margin: 0 20px 0 20px;
+}
+
+footer {
+  padding-top: 5%;
+  font-style: italic;
+}
