@@ -4,6 +4,10 @@
   margin-right: auto;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   background: url('Imgs/bkg2.png') no-repeat center center fixed;
   background-size: cover;
