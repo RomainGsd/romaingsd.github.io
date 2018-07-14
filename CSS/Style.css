@@ -7,42 +7,12 @@
   left: 0;
 }
 
-.blur {
-  background: url('Imgs/bkg.jpg') no-repeat center center fixed;
-  /*background: linear-gradient(to bottom right, #3f87a6, #9198e5);*/
-  overflow: hidden;
-  filter: blur(15px);
-  position: absolute;
-  top: -50px;
-  right: -50px;
-  bottom: -50px;
-  left: -50px;
-}
-
 .center ul, a {
   text-decoration: none;
 }
 
 .center li:hover {
   background-color: rgba(163, 163, 163, 0.5);
-}
-
-.CV {
-  background-color: rgba(163, 163, 163, 0.5);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-style: none;
-  border-radius: 10px;
-}
-
-.CV h2 {
-  text-decoration: underline;
-}
-
-.profile_pic {
-  float: right;
 }
 
 html {
@@ -52,9 +22,6 @@ html {
 body {
   background: url('Imgs/bkg.jpg') no-repeat center center fixed;
   background-size: cover;
-  /*background-repeat: no-repeat;
-  background-attachment: fixed;
-  /*background: linear-gradient(to bottom right, #3f87a6, #9198e5);*/
 }
 
 header {

@@ -3,12 +3,21 @@
 <head>
   <meta charset="utf-8" />
   <link rel="icon" href="../CSS/Imgs/favicon.png" />
-  <link rel="stylesheet"  href="../CSS/Construction.css"/>
+  <link rel="stylesheet"  href="../CSS/Forms.css"/>
   <title>Projets Webs</title>
 </head>
 
 <body>
-  <img class="center_pic" src="../CSS/Imgs/GIFs/Skull.gif" alt="Chantier en cours" title="Chantier en cours" />
+  <div class="form_case">
+    <img class="center_pic" src="../CSS/Imgs/GIFs/Skull.gif" alt="Chantier en cours" title="Chantier en cours" />
+    <form method="post" action="traitement.php">
+      <input type="text" name="name" id="name" maxlength="30" placeholder="Jean Dupont" required/> <br />
+      <input type="mail" name="mail" id="mail" size ="40" maxlength="40" placeholder="jean.dupont@host.com" required /> <br />
+      <!--<input type="number" name="life" id="life" placeholder="Sens de la vie ?" required /> <br /> -->
+      <textarea name="message" id="message" rows="5" placeholder="Votre message" required ></textarea> <br />
+      <input type="submit" value="Envoyer">
+    </form>
+  </div>
 </body>
 
 </html>
