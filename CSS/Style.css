@@ -7,11 +7,11 @@
   left: 0;
 }
 
-.center ul, a {
+.center a {
   text-decoration: none;
 }
 
-.center li:hover {
+.center a:hover {
   background-color: rgba(163, 163, 163, 0.5);
 }
 
@@ -20,6 +20,7 @@ html {
 }
 
 body {
+  font-family: 'Montserrat', sans-serif;
   background: url('Imgs/bkg.jpg') no-repeat center center fixed;
   background-size: cover;
 }
@@ -41,16 +42,16 @@ h1 {
 p {
   text-align: center;
   margin: 0 20px 0 20px;
+  padding-bottom: 20px;
 }
 
-nav ul {
+nav {
   display: flex;
   justify-content: center;
-  list-style: none;
-  padding: 0;
 }
 
-nav ul li {
+nav a {
+  padding: 0;
   padding-top: 10px;
   padding-right: 20px;
   padding-bottom: 10px;
