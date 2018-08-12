@@ -13,6 +13,7 @@
 
 .center a:hover {
   background-color: rgba(163, 163, 163, 0.5);
+  cursor: none;
 }
 
 html {
