@@ -1,9 +1,21 @@
-var query = document.querySelector('h1'),
-    queryAll = document.querySelectorAll('h1');
+var mainDiv = document.createElement('div'),
+  phrase = document.createElement('p'),
+  list = document.createElement('ul'),
+  listArray[3],
+  pList[3] = {
+    "JavaScript",
+    "JScript",
+    "ActionScript",
+    "EX4"
+  };
 
-alert(query.innerHTML);
+mainDiv.id = "divTP2";
+phrase.createTextNode("Languages basés sur ECMAScript :");
 
-alert("Number of elements : " + queryAll.length);
-for (var i = 0, c = queryAll.length; i < c; i++) {
-  alert("Element n°" + (i+1) + " : " + queryAll[i].innerHTML);
+for (var i = 0; i < 4; i++) {
+  listArray[i] = document.createElement('li');
+  listArray[i].createTextNode(pList[i]);
 }
+
+mainDiv.appendChild(phrase);
+document.body.appendChild(mainDiv);
