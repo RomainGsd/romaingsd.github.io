@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
+
 <head>
-  <meta charset="utf-8"/>
-  <link rel="icon" href="../CSS/Imgs/favicon.png" />
-  <link rel="stylesheet"  href="../CSS/Forms.css"/>
+  <meta charset="utf-8" />
+  <link rel="icon" href="static/css/img/favicon.png" />
+  <link rel="stylesheet" href="static/css/Forms.css" />
   <title>Contact</title>
 </head>
 
 <body>
   <div id="form_case">
-    <img src="../CSS/Imgs/GIFs/Skull.gif" alt="Chantier en cours" title="Chantier en cours" />
+    <img src="static/img/gif/Skull.gif" alt="Chantier en cours" title="Chantier en cours" />
     <!--<form method="post" action="traitement.php">
       <input type="text" name="name" id="name" maxlength="30" placeholder="John Osterman" required /> <br />
       <input type="email" name="mail" id="mail" size ="40" maxlength="40" placeholder="john.osterman@host.com" required /> <br />

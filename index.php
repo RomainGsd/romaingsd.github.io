@@ -1,11 +1,11 @@
 <!DOCTYPE HTML>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <link rel="icon" href="CSS/Imgs/favicon.png">
-  <link rel="stylesheet"  href="CSS/Style.css"/>
+  <link rel="icon" href="static/img/favicon.png">
+  <link rel="stylesheet"  href="static/css/Style.css"/>
   <title>Romain Goasdoué</title>
 </head>
 
@@ -14,9 +14,9 @@
       <h1>Romain Goasdoué</h1>
       <p>CV en ligne et projets Webs</p>
       <nav>
-        <a href="content/CV.html">CV</a>
-        <a href="content/Projects.html">PROJETS</a>
-        <a href="content/Contact.html">CONTACT</a>
+        <a href="cv/cv.php">CV</a>
+        <a href="projects/projects.php">PROJECTS</a>
+        <a href="drive/drive.php">DRIVE</a>
       </nav>
   </header>
 </body>
