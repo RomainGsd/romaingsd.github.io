@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link rel="icon" href="static/img/favicon.png">
-  <link rel="stylesheet"  href="static/css/Style.css"/>
+  <link rel="stylesheet"  href="static/css/style.css"/>
   <title>Romain Goasdoué</title>
 </head>
 
@@ -17,6 +17,7 @@
         <a href="cv/cv.php">CV</a>
         <a href="projects/projects.php">PROJECTS</a>
         <a href="drive/drive.php">DRIVE</a>
+        <a href="contact/contact.php">CONTACT</a>
       </nav>
   </header>
 </body>
