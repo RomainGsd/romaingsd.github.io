@@ -3,8 +3,8 @@
 
 <head>
   <meta charset="utf-8" />
-  <link rel="icon" href="../static/img/favicon.png" />
-  <link rel="stylesheet" href="../static/css/construction.css" />
+  <link rel="icon" href="/static/img/favicon.png" />
+  <link rel="stylesheet" href="/static/css/construction.css" />
   <title>Drive</title>
   <style>
     canvas {
@@ -13,7 +13,7 @@
     }
   </style>
   <!-- You might will need to activate WebGL in your browser -->
-  <script src="../static/js/three.min.js"></script>
+  <script src="/static/js/three.min.js"></script>
 </head>
 
 <body>
