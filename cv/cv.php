@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <img id="center_pic" src="/static/img/gif/World.gif" alt="Chantier en cours" title="Chantier en cours" />
+  <img id="center_pic" src="/static/img/gif/world.gif" alt="work in progress" title="work in progress" />
 </body>
 
 </html>

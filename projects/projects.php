@@ -17,7 +17,7 @@
     <option>Arcade</option>
   </select>-->
   <!-- GIF de mes projets -->
-  <img id="center_pic" src="/static/img/gif/Stairs.gif" alt="Chantier en cours" title="Chantier en cours" />
+  <img id="center_pic" src="/static/img/gif/stairs.gif" alt="work in progress" title="work in progress" />
 </body>
 
 </html>
