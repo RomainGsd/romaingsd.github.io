@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <link rel="icon" href="/static/img/favicon.png" />
-  <link rel="stylesheet" href="/static/css/construction.css" />
+  <link rel="stylesheet" href="/static/css/in_progress.css" />
   <title>CV</title>
 </head>
 
