@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <img src="/static/img/gif/Skull.gif" alt="work in progress" title="work in progress" />
+  <img id="center_pic" src="/static/img/gif/Skull.gif" alt="work in progress" title="work in progress" />
 </body>
 
 </html>
