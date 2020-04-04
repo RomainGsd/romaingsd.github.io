@@ -43,11 +43,13 @@
 #profile_pic {
     text-align: center;
     border-radius: 3%;
+    max-width: 100%;
+    height: auto;
 }
 
 .external_logo {
-    width: 20em;
-    height: 10em;
+    max-width: 20em;
+    height: auto;
 }
 
 .bold_li {
