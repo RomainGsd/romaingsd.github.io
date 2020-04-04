@@ -48,6 +48,7 @@
 }
 
 .external_logo {
+    width: 100%;
     max-width: 20em;
     height: auto;
 }
