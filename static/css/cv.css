@@ -21,7 +21,8 @@
     #skills,
     #education,
     #experience {
-        padding: 2em 2em;
+        padding: 2em;
+        text-align: center;
     }
 }
 
@@ -31,23 +32,12 @@
 #experience {
     display: flex;
     flex-direction: column;
-    text-align: center;
     border-style: solid;
     border-width: 0 1px;
     padding: 0 2em;
 }
 
-#pro_perso {
-    display: flex;
-    flex-direction: row;
-}
-
-#ul_centered {
-    text-align: center;
-}
-
 #profile_pic {
-    text-align: center;
     border-radius: 3%;
     max-width: 100%;
     height: auto;
@@ -55,7 +45,7 @@
 
 .external_logo {
     width: 100%;
-    max-width: 20em;
+    max-width: 12em;
     height: auto;
 }
 
