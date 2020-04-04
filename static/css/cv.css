@@ -1,6 +1,6 @@
 #cv {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 3em;
     border-style: double;
     border-width: 3px;
@@ -10,6 +10,13 @@
     background-color: rgba(163, 163, 163, 0.3);
     font-family: 'Roboto', serif;
     overflow: auto;
+}
+
+@media only screen and (min-width: 768px) {
+    #cv {
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 #infos,
