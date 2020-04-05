@@ -1,7 +1,7 @@
 #cv {
     display: flex;
     flex-direction: column;
-    margin: 3em;
+    margin: 1em;
     border-radius: 8px;
     text-align: center;
     justify-content: space-around;
@@ -19,7 +19,7 @@
     #skills,
     #education,
     #experience {
-        padding: 2em;
+        margin: 2em 0;
         text-align: center;
     }
     #skills {
