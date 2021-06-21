@@ -60,7 +60,7 @@
 
 html {
     height: 100%;
-    background: url('/static/img/bkg2.png') no-repeat center fixed;
+    background: url('../img/bkg2.png') no-repeat center fixed;
     background-size: cover;
     -o-background-size: cover;
 }
@@ -71,6 +71,7 @@ h1 {
 }
 
 h2 {
+    text-align: left;
     font-style: italic;
 }
 

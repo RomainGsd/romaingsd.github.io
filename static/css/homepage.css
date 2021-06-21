@@ -21,7 +21,7 @@ html {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background: url('/static/img/bkg.jpg') no-repeat center fixed;
+    background: url('../img/bkg.jpg') no-repeat center fixed;
     background-size: cover;
 }
 
