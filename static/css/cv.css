@@ -16,40 +16,39 @@
     border-radius: 8px;
     text-align: center;
     justify-content: space-around;
-    background-color: rgba(163, 163, 163, 0.3);
+    background-color: rgba(163, 163, 163, 0.4);
     font-family: 'Roboto', serif;
     overflow: auto;
+    color: black;
 }
 
 @media only screen and (min-width: 768px) {
     #cv {
         display: flex;
         flex-direction: row;
+        justify-content: space-evenly;
     }
-    #infos,
-    #skills,
-    #education,
-    #experience {
+    .cv-elem {
         margin: 2em 0;
         text-align: center;
     }
-    #skills {
+    /* #skills {
         border-style: solid;
         border-width: 0 0 0 1px;
     }
     #education {
         border-style: solid;
         border-width: 0 1px;
-    }
+    } */
 }
 
-#infos,
-#skills,
-#education,
-#experience {
+.cv-elem {
     display: flex;
     flex-direction: column;
-    padding: 0 2em;
+}
+
+.cv-elem ul, .cv-elem h2 { 
+    text-align: center;
 }
 
 #profile_pic {
@@ -89,4 +88,6 @@ h2 {
 ul {
     text-align: left;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
