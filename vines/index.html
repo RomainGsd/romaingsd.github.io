@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sayé c Vines ??</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('../static/img/bkg.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background: rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      padding: 30px 20px;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+      color: #ffffff;
+      max-width: 600px;
+      width: 90%;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+      font-size: 1.8rem;
+    }
+
+    .countdown {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .time-box {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 12px;
+      padding: 15px;
+      min-width: 80px;
+      flex: 1 1 30%;
+    }
+
+    .time-box div:first-child {
+      font-size: 2.2rem;
+      font-weight: bold;
+    }
+
+    .label {
+      font-size: 0.75rem;
+      color: #cccccc;
+      margin-top: 5px;
+      text-transform: uppercase;
+    }
+
+    @media (max-width: 400px) {
+      h1 {
+        font-size: 1.4rem;
+      }
+
+      .time-box div:first-child {
+        font-size: 1.6rem;
+      }
+
+      .time-box {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Vines etre dans</h1>
+    <div class="countdown">
+      <div class="time-box">
+        <div id="days">00</div>
+        <div class="label">Jours</div>
+      </div>
+      <div class="time-box">
+        <div id="hours">00</div>
+        <div class="label">Heures</div>
+      </div>
+      <div class="time-box">
+        <div id="minutes">00</div>
+        <div class="label">Minutes</div>
+      </div>
+      <div class="time-box">
+        <div id="seconds">00</div>
+        <div class="label">Secondes</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const targetDate = new Date("Aug 23, 2025 12:00:00").getTime();
+
+    function updateCountdown() {
+      const now = new Date().getTime();
+      const distance = targetDate - now;
+
+      if (distance < 0) {
+        document.querySelector(".countdown").innerHTML = "VIIIIIIIINES";
+        clearInterval(interval);
+        return;
+      }
+
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      document.getElementById("days").textContent = String(days).padStart(2, "0");
+      document.getElementById("hours").textContent = String(hours).padStart(2, "0");
+      document.getElementById("minutes").textContent = String(minutes).padStart(2, "0");
+      document.getElementById("seconds").textContent = String(seconds).padStart(2, "0");
+    }
+
+    const interval = setInterval(updateCountdown, 1000);
+    updateCountdown();
+  </script>
+</body>
+</html>
